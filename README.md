@@ -8,13 +8,13 @@ Run `python3 -m http.server 8080` in this directory and open http://localhost:80
 
 ## GitHub Pages
 
-In `hestrel/web` → Settings → Pages, select **GitHub Actions** as the source. Push to `main` or run the Deploy GitHub Pages workflow. The workflow publishes only the HTML, CSS, and `.nojekyll` file.
+In `hestrel/hestrel.github.io` → Settings → Pages, select **GitHub Actions** as the source. Push to `main` or run the Deploy GitHub Pages workflow. The workflow publishes only the HTML, CSS, and `.nojekyll` file.
 
 Expected URLs after deployment:
 
-- Homepage: https://hestrel.github.io/web/
-- Privacy policy: https://hestrel.github.io/web/privacy.html
-- Terms: https://hestrel.github.io/web/terms.html
+- Homepage: https://hestrel.github.io/
+- Privacy policy: https://hestrel.github.io/privacy.html
+- Terms: https://hestrel.github.io/terms.html
 - Support: michaljach@gmail.com
 
 ## Google OAuth verification
