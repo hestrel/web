@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="How Hestrel accesses, uses, stores, and shares information, including data from optional Google connections.">
+  <title>Privacy policy — Hestrel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header><a class="wordmark" href="index.html">hestrel</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main id="main">
+    <div class="page-heading"><p class="eyebrow">Hestrel / Privacy</p><h1>Privacy policy</h1><p>Last updated: October 5, 2026</p></div>
+    <section><h2>Information Hestrel processes</h2>
+      <p>Hestrel processes conversations, messages, attachments you provide, model provider settings, and connected-service information to offer AI chat and optional account sync. If you create a Hestrel account with Sign in with Apple, the account service stores your account identifier and email address, when provided.</p>
+      <p>Connecting Google gives Hestrel access to your Google account identifier, email address, and the permissions you grant. Hestrel requests access separately for the services you choose to connect.</p>
+    </section>
+    <section><h2>Google data and why it is used</h2>
+      <ul><li><strong>Gmail:</strong> read-only access to search and read email, including message content, sender, recipient, and date information, to answer email-related questions.</li>
+      <li><strong>Google Calendar:</strong> read-only access to calendars and event details to answer questions about your schedule.</li>
+      <li><strong>Google Drive:</strong> read-only access to find files and read Google documents to answer questions about their contents.</li></ul>
+      <p>Hestrel uses this information to provide the connected features in your conversations. These permissions do not allow Hestrel to send email, edit calendar events, or modify Drive files.</p>
+    </section>
+    <section><h2>AI processing and sharing</h2>
+      <p>When a Google service is enabled for a conversation, the AI model can request information from that service as part of responding to you. Retrieved content becomes part of the conversation and is sent to the model provider you selected. Your configured provider receives conversation context to generate responses and processes it under its own terms and privacy policy. Review that provider’s data handling before using connected services.</p>
+      <p>If you use account sync, conversations and messages, including Google content saved in them, are transferred to Hestrel’s sync service hosted on Cloudflare. Google credentials are not sent to the AI model.</p>
+      <p>Hestrel does not sell Google user data or use it for advertising. Google user data is used to provide the features you choose, not to develop or train generalized AI or machine learning models.</p>
+      <p>Hestrel’s use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    </section>
+    <section><h2>Storage and security</h2>
+      <p>Conversations and connection settings are stored on your device. The Google Sign-In SDK manages Google credentials using the device Keychain. Model provider API keys are also stored in the device Keychain. Google API requests use HTTPS.</p>
+      <p>When you use a Hestrel account, conversation and provider configuration data can sync through Hestrel’s Cloudflare service. Model provider API keys are not included in sync. Synced conversation data is not end-to-end encrypted.</p>
+    </section>
+    <section><h2>Retention, disconnection, and deletion</h2>
+      <p>Saved conversations remain until you delete them. Delete conversations in Hestrel to remove their saved contents; when account sync is active, conversation deletions also apply to synced records. Use Delete Account in Settings to delete your Hestrel account and its synced data.</p>
+      <p>You can disable connected services in Hestrel or disconnect Google. You can also revoke Hestrel’s access through your <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access stops future access; it does not erase information already saved in conversations. Delete those conversations separately.</p>
+      <p>AI providers may retain information already sent to them according to their own policies. Contact the relevant provider to request deletion of data it retains.</p>
+    </section>
+    <section><h2>This website</h2><p>This website does not include analytics, advertising, tracking scripts, or cookies set by its own code. Its hosting provider may process connection information, such as IP addresses, to deliver and protect the website.</p></section>
+    <section><h2>Contact and updates</h2><p>For privacy questions or help with data deletion, contact <a href="mailto:michaljach@gmail.com">michaljach@gmail.com</a>. Changes to this policy will be published here with an updated date.</p></section>
+</main>
+  <footer><span>Hestrel</span><div><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="index.html#contact">Contact</a></div></footer>
+</body>
+</html>
